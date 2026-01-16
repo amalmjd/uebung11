@@ -4,7 +4,7 @@ public class H1_main {
 
     public static int distance(Node x, Node y) {
         if (x == y) {
-            return 0; // Base Case
+            return 0; 
         }
         return 1 + distance(x.getNext(), y);
     }
